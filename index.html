@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAY 01</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      a {
+        text-decoration: none;
+        color: #0066cc;
+        margin-right: 15px;
+      }
+      img {
+        max-width: 50%;
+        height: auto;
+      }
+      span {
+        font-weight: bold;
+        margin-right: 15px;
+        border: 5px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 只有body里面的内容会在网页里展示出来 -->
+    <!-- id是指单个标签的单个名字，为单个元素指定唯一的标识符 -->
+    <!-- class是指多个标签的集合名字，某一类的标签 -->
+    <!--大的标签叫做元素，在大标签里面跟着的小标签叫做属性 -->
+    <!-- ctrl+/ 就是添加注释 -->
+    <!-- <div> 是块级元素，它独占一行，可以设置宽度、高度以及边距等样式属性。它适合用于创建页面的大块结构，例如页面的主体区域、容器、布局等。
+<span> 是行内元素，它不会独占一行，宽度默认由其内容决定。它适合用于对文本或其他行内元素进行样式化、标记或包裹。 -->
+
+    <div>
+      <div
+        id="header"
+        border="5"
+        style="background-color: aqua; padding: 15px; text-align: center"
+      >
+        <h1>DAY 01</h1>
+      </div>
+      <div
+        id="menu"
+        border="5"
+        style="
+          background-color: #e87070;
+          padding: 15px;
+          height: 150px;
+          width: 900px;
+          text-align: center;
+        "
+      >
+        <span><a href="#part1">part1</a></span
+        ><br />
+        <span><a href="#part2">part2</a></span
+        ><br />
+        <span><a href="#part3">part3</a></span
+        ><br />
+        <span><a href="#part4">part4</a></span
+        ><br />
+        <span><a href="#part5">part5</a></span
+        ><br />
+        <span><a href="#part6">part6</a></span
+        ><br />
+      </div>
+
+      <div id="part1">
+        <p>做一个个人简历网站</p>
+        <img src="image/img-01.jpg" />
+        <hr />
+        <a href="jianli.html" target="_self" title="我的简历"
+          ><strong>点击这里查看</strong><br />个人简历</a
+        >
+        <a href="image/img-01.jpg" download="img-01">下载图片</a>
+
+        <!-- id：用于链接锚点，通常在同一页面中跳转到某个特定位置。 -->
+        <!-- hr是添加水平线 -->
+        <!-- br是把文字分行，可以直接用在文字后面 -->
+        <!-- 这些文本格式化标签也可以直接用在文字前面，比如<strong>加粗</strong>、<em>斜体</em>、<i>斜体</i>、<small>小号字体</small> -->
+      </div>
+      <hr />
+      <div id="part2">
+        <p>做一个网站</p>
+        <img src="image/img-02.jpg" />
+        <hr />
+        <a href=""><em>点击这里查看</em></a>
+        <hr />
+      </div>
+      <div id="part3">
+        <p>做一个网站</p>
+        <img src="image/img-03.jpg" />
+        <hr />
+        <a href=""><i>点击这里查看</i></a>
+        <hr />
+      </div>
+      <div id="part4">
+        <p>做一个网站</p>
+        <img src="image/img-04.jpg" />
+        <hr />
+        <a href=""><small>点击这里查看</small></a>
+        <hr />
+      </div>
+      <div id="part5">
+        <p>做一个网站</p>
+        <img src="image/img-05.jpg" />
+        <hr />
+        <a href="">点击这里查看</a>
+        <hr />
+      </div>
+      <div id="part6">
+        <p>做一个网站</p>
+        <img src="image/img-06.jpg" />
+        <hr />
+        <a href="">点击这里查看</a>
+      </div>
+    </div>
+  </body>
+</html>
