@@ -4,32 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DAY 01</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-      }
-      h1 {
-        color: #333;
-      }
-      a {
-        text-decoration: none;
-        color: #0066cc;
-        margin-right: 15px;
-      }
-      img {
-        max-width: 50%;
-        height: auto;
-      }
-      span {
-        font-weight: bold;
-        margin-right: 15px;
-        border: 5px solid #ccc;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!-- CSS 中 id 选择器以 "#" 来定义。 class 属性 在 CSS 中，类选择器以一个点 .号显示 -->
     <!-- 只有body里面的内容会在网页里展示出来 -->
     <!-- id是指单个标签的单个名字，为单个元素指定唯一的标识符 -->
     <!-- class是指多个标签的集合名字，某一类的标签 -->
@@ -37,37 +15,24 @@
     <!-- ctrl+/ 就是添加注释 -->
     <!-- <div> 是块级元素，它独占一行，可以设置宽度、高度以及边距等样式属性。它适合用于创建页面的大块结构，例如页面的主体区域、容器、布局等。
 <span> 是行内元素，它不会独占一行，宽度默认由其内容决定。它适合用于对文本或其他行内元素进行样式化、标记或包裹。 -->
-
+    <!-- （内联样式）Inline style > （内部样式）Internal style sheet >（外部样式）External style sheet > 浏览器默认样式 -->
+    <!-- 如果外部样式放在内部样式的后面，则外部样式将覆盖内部样式 -->
     <div>
-      <div
-        id="header"
-        border="5"
-        style="background-color: aqua; padding: 15px; text-align: center"
-      >
+      <div id="header">
         <h1>DAY 01</h1>
       </div>
-      <div
-        id="menu"
-        border="5"
-        style="
-          background-color: #e87070;
-          padding: 15px;
-          height: 150px;
-          width: 900px;
-          text-align: center;
-        "
-      >
-        <span><a href="#part1">part1</a></span
+      <div id="menu">
+        <span><a href="#part1">个人简介</a></span
         ><br />
-        <span><a href="#part2">part2</a></span
+        <span><a href="#part2">简易信息展示网站</a></span
         ><br />
-        <span><a href="#part3">part3</a></span
+        <span><a href="#part3">登录页面</a></span
         ><br />
-        <span><a href="#part4">part4</a></span
+        <span><a href="#part4">个人博客展示</a></span
         ><br />
-        <span><a href="#part5">part5</a></span
+        <span><a href="#part5">商品分类页面</a></span
         ><br />
-        <span><a href="#part6">part6</a></span
+        <span><a href="#part6">电影筛选页面</a></span
         ><br />
       </div>
 
@@ -90,35 +55,35 @@
         <p>做一个网站</p>
         <img src="image/img-02.jpg" />
         <hr />
-        <a href=""><em>点击这里查看</em></a>
+        <a href="xxzhans.html"><em>简易信息展示网站</em></a>
         <hr />
       </div>
       <div id="part3">
         <p>做一个网站</p>
         <img src="image/img-03.jpg" />
         <hr />
-        <a href=""><i>点击这里查看</i></a>
+        <a href="denglu.html"><i>登录页面</i></a>
         <hr />
       </div>
       <div id="part4">
         <p>做一个网站</p>
         <img src="image/img-04.jpg" />
         <hr />
-        <a href=""><small>点击这里查看</small></a>
+        <a href="boke.html"><small>个人博客展示</small></a>
         <hr />
       </div>
       <div id="part5">
         <p>做一个网站</p>
         <img src="image/img-05.jpg" />
         <hr />
-        <a href="">点击这里查看</a>
+        <a href="shangping.html">商品分类页面</a>
         <hr />
       </div>
       <div id="part6">
         <p>做一个网站</p>
         <img src="image/img-06.jpg" />
         <hr />
-        <a href="">点击这里查看</a>
+        <a href="dianying.html">电影筛选页面</a>
       </div>
     </div>
   </body>
